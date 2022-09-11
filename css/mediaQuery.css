@@ -1,5 +1,4 @@
-/* My firefox browser is in 1349px width :c */
-@media (min-width: 1440px) {
+@media (min-width: 650px) {
   .main__container {
     width: 600px;
     height: 40rem;
@@ -11,12 +10,18 @@
   }
 
   .productCard--img {
-    background-image: url(../images/image-product-desktop.jpg);
-    /* Used if the image is unavailable */
-    background-color: #cccccc;
-    /* You must set a specified height and width*/
-    width: 85rem;
     height: 40rem;
+    /* Three values: flex-grow | flex-shrink | flex-basis */
+    flex: 1 0 50%;
+  }
+
+  .productCard--img img {
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
   }
 
   .productCard--text {

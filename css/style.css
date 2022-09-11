@@ -47,7 +47,7 @@ html {
 /* MAIN */
 .main__container{
     margin: 0 auto;
-    margin-top: 3rem;
+    margin-top: 10rem;
     width: 80vw;
     background-color: var(--white-color);
     border-radius: 1rem;
@@ -56,23 +56,25 @@ html {
 .productCard__container{
     display: flex;
     flex-direction: column;
-    
 }
 
-.productCard--img{    
-    background-image: url(../images/image-product-mobile.jpg);
+.productCard--img{
+    /* background-image: url(../images/image-product-mobile.jpg); */
     /* Used if the image is unavailable */
-    background-color: #cccccc;
+    /* background-color: #cccccc; */
     /* You must set a specified height and width*/
-    height: 25rem;
+    /* height: 25rem; */
     /* Center the image */
-    background-position: center;
     /* Do not repeat the image */
+    /* background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
+    /* flex: 1 0 50%; */
 }
 
 .productCard--img img{
+    height: 25rem;
+    width: 100%;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
 }
