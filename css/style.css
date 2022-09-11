@@ -59,8 +59,8 @@ html {
     
 }
 
-.productCard--img{
-    background-image: url(/images/image-product-mobile.jpg);
+.productCard--img{    
+    background-image: url(../images/image-product-mobile.jpg);
     /* Used if the image is unavailable */
     background-color: #cccccc;
     /* You must set a specified height and width*/
